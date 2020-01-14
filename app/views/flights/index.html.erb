@@ -2,7 +2,6 @@
   <section id = "flight-<%=flight.id%>">
     <h2>Flight Number: <%= flight.number %></h2>
       <% flight.passengers.each do |passenger| %>
-      <%# <%= binding.pry %> %>
           <p>Flight Passenger: <%= passenger.name %></p>
       <% end %>
   </section>
